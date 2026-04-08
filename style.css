@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Special+Elite&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* fundo geral */
+body {
+   font-family: 'Special Elite', typewriter, serif; /* Fonte do corpo */
+    background: #230101;
+    color: #ddd;
+}
+
+/* banner com imagem */
+.banner {
+    width: 80%;
+    height: 115vh; 
+
+    margin: 100px auto;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    border-radius: 275px;
+    overflow: hidden;
+
+    border-top: 5px solid #bc143e;
+}
+
+#filme {
+    background-image: url("image/figthclub.jpg");
+}
+
+#personagem1 {
+    background-image: url("image/tyler.jpg"); /* Nome da sua segunda imagem */
+}
+
+#personagem2 {
+    background-image: url("image/narrador.jpg"); /* Nome da sua terceira imagem */
+}
+
+#personagem3 {
+    background-image: url("image/marla.jpg"); /* Nome da sua terceira imagem */
+}
+
+/* camada escura por cima */
+.overlay {
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.7);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+/* título */
+.overlay h1 {
+    font-family: 'Bebas Neue', sans-serif; /* Fonte do título */
+    font-size: 80px; /* Títulos em Clube da Luta costumam ser grandes */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #bc143e;
+    text-shadow: 3px 3px 0px #000; /* Dá um ar mais agressivo */
+    margin-bottom: 40px;
+}
+
+/* linha separadora */
+.overlay hr {
+    width: 150px;         /* Largura da linha */
+    border: none;         /* Remove a borda padrão do navegador */
+    height: 2px;          /* Espessura da linha */
+    background-color: #bc143e; /* A cor rosa/vermelha que você está usando */
+    margin-bottom: 40px;/* Espaço entre a linha e o texto abaixo */
+}
+
+/* texto */
+.overlay p {
+   font-size: 1.1rem;
+    max-width: 600px;
+    line-height: 1.4;
+    /* Um leve efeito de desbotado */
+    opacity: 0.7;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
