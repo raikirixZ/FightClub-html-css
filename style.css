@@ -31,19 +31,19 @@ body {
 }
 
 #filme {
-    background-image: url("image/figthclub.jpg");
+    background-image: url("fightclub.jpg");
 }
 
 #personagem1 {
-    background-image: url("image/tyler.jpg"); /* Nome da sua segunda imagem */
+    background-image: url("tyler.jpg"); /* Nome da sua segunda imagem */
 }
 
 #personagem2 {
-    background-image: url("image/narrador.jpg"); /* Nome da sua terceira imagem */
+    background-image: url("narrador.jpg"); /* Nome da sua terceira imagem */
 }
 
 #personagem3 {
-    background-image: url("image/marla.jpg"); /* Nome da sua terceira imagem */
+    background-image: url("marla.jpg"); /* Nome da sua terceira imagem */
 }
 
 /* camada escura por cima */
