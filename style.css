@@ -35,11 +35,11 @@ body {
 }
 
 #personagem1 {
-    background-image: url("tyler.jpg"); /* Nome da sua segunda imagem */
+    background-image: url("tyler.jpg"); /* Nome da sua primeira imagem */
 }
 
 #personagem2 {
-    background-image: url("narrador.jpg"); /* Nome da sua terceira imagem */
+    background-image: url("narrador.jpg"); /* Nome da sua segunda imagem */
 }
 
 #personagem3 {
