@@ -8,3 +8,4 @@ Este é um projeto de estudo focado em Front-End, utilizando a temática do film
 
 ## 🔗 Deploy
 O site pode ser visualizado através do link abaixo:
+(https://gabrielcrzojo.github.io/FightClub-html-css/)
